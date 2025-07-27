@@ -10,7 +10,7 @@ function createTable() {
 		const tr = document.createElement("tr");
 		for(let j = 0; j < cols ; j++){
 			const td = document.createElement("td");
-			td.textContent = `Row- ${i} Column- ${j}`;
+			td.textContent = `Row-${i} Column-${j}`;
 		    tr.appendChild(td);
 			td.style.padding = "8px";
 		}
