@@ -3,6 +3,7 @@ function createTable() {
 	const cols = parseInt(prompt("Input number of columns"));
 
 	const table = document.createElement("table");
+	 table.id = "myTable";
 	 table.border = "1";
      table.style.borderCollapse = "collapse";
      table.style.marginTop = "20px";
